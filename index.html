@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contractor IA</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/scroll-color-change.js"></script>
+
+</head>
+<body>
+    
+    <header>
+
+        <div class="container__header">	
+
+            <div class="logo">
+                <img src="media/ia-logo.png" alt="">
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Plans</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Safety</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
+            <div class="header__register">
+                <input type="button" class="btn__header-register" value="Log in">
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="cover">
+            
+            <div class="text__information-cover">
+                <h1>Transparency beyond everything.</h1>
+
+                <p>This solution seeks to increase transparency in the public procurement processes of
+                    Paraguay's central and local government, by providing timely information to micro, small and
+                    medium enterprises, through a predictive natural language processing model using
+                    the fine tuning of a BERT multi language transformer, based on historical values of similar
+                    tenders, helping bidders to participate more efficiently in tenders and identifying potential
+                    irregularities in the processes in which they participate in order to file more effective
+                    complaints.</p>
+
+                <div class="buttons__cover">
+                    <input type="button" class="btn__register-cover" value="Try Contractor">
+                    <input type="button" class="btn__readMore-cover" value="Leer más">
+                </div>
+
+            </div>
+
+            <div class="media__cover">
+                <video src="media/animacion_cover.webm" autoplay playinline loop muted preload="auto"></video>
+            </div>
+
+
+        </div>
+       <section>
+        <div class="container__banner">
+
+            <div class="banner">
+                <div class="banner__icon-bot">
+                    <img src="media/bot_icon (2).png" id="icon_bot" alt="">
+                </div>
+                
+                <div class="banner__text">
+                    <h2>We create a solution to reduce corruption & fraud in the public contracting process by increasing 
+                        transparency and ensuring proper delivery of essential public goods and services to citizens.</h2>
+                    <a href="#">Leer más</a> </div>
+
+                    <div class="banner__icon-doc">
+                        <img src="media/data_icon.png " id="icon_doc" alt="">
+                    
+                </div>
+            </div>
+<br>
+        </div>
+        <div class="container">
+            <div class="top">
+                <h1>Plan & Pricing</h1>
+                <div class="toggle-btn">
+                    <span class="back">Annually</span>
+                    <label class="switch">
+                        <input type="checkbox" id="checkbox" onclick="check()" ; />
+                        <span class="slider round"></span>
+                    </label>
+                    <span class="back">Monthly</span>
+                </div>
+            </div>
+        
+            <div class="package-container">
+        
+                <div class="packages">
+                    <h1>Basic</h1>
+                    <h2 class="text1">Free</h2>
+                    <h2 class="text2">Free</h2>
+                    <ul class="list">
+                        <li class="first">Basic features</li>
+                        <li>1 User</li>
+                        <li>Free page (Monthly) </li>
+                        <li>Support</li>
+                    </ul>
+                    <a href="#" class="button button3">Get free trial</a>
+                </div>
+        
+                <div class="packages">
+                    <h1>Professional</h1>
+                    <h2 class="text1">$20.00</h2>
+                    <h2 class="text2">$200.00</h2>
+                    <ul class="list">
+                        <li class="first">Uptime SLA</li>
+                        <li>10 Users</li>
+                        <li>Soc-2 certificate</li>
+                        <li>Experts Support</li>
+                    </ul>
+                    <a href="#" class="button button2">Get started now</a>
+                </div>
+        
+                <div class="packages">
+                    <h1>Master</h1>
+                    <h2 class="text1">$10.00</h2>
+                    <h2 class="text2">$100.00</h2>
+                    <ul class="list">
+                        <li class="first">OCR</li>
+                        <li>5 Users </li>
+                        <li>Tenders guidance</li>
+                        <li>Enterpise support</li>
+                    </ul>
+                    <a href="#" class="button button1">Get started now</a>
+                    <script>
+                        function check()
+                        {
+                            var checkbox = document.getElementById("checkbox");
+                            var text1 = document.getElementsByClassName("text1");
+                            var text2 = document.getElementsByClassName("text2");
+                            for (var i = 0; i < text1.length; i++)
+                            {
+                                if (checkbox.checked == true)
+                                {
+                                    text1[i].style.display = "block";
+                                    text2[i].style.display = "none";
+                                }
+                                else if (checkbox.checked == false)
+                                {
+                                    text1[i].style.display = "none";
+                                    text2[i].style.display = "block";
+                                }
+                            }
+                        
+                        }   
+                        check(); 
+                        </script>
+                </div>
+            </div>
+            </div>
+                <br>
+                <br>
+                <br>
+                <section>
+                <div class="container__cards">
+                
+                    <h1>Company</h1>
+                </div>
+                    <div class="card">
+                        
+                        <div class="cover__card">
+                            <img src="media/asepy.png" alt="">
+                        </div>
+                        <h2>Christian Sosa</h2>
+                        <p>I am a Social Entrepreneur with over 15 years of experience leading civil organizations and
+                             enterprises, focusing on public policies and social innovation. Currently I  am the president
+                              of ASEPY  and the CEO of <Vigia.py </p>
+                        <hr><div class="footer__card">
+                            <h3 class="user__name">Asuncion, Paraguay</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cover__card">
+                            <img src="media/Daniel.jpg" alt="">
+                        </div>
+                        <h2>Daniel Rojas</h2>
+                        <p>I am a skilled Data Analyst with over 6 years of experience.
+                             I have expertise in programming languages like SQL, visualization tools like Looker Studio, 
+                             cloud services like GCP and Oracle, and financial software like Hyperion.</p>
+                        <hr>
+                        <div class="footer__card">
+                            <h3 class="user__name">Bogota, Colombia</h3>
+                    </div>
+                </div>
+                    <div class="card">
+                        <div class="cover__card">
+                            <img src="media/Dayanni.jpeg" alt="">
+                        </div>
+                        <h2>Dayanni Olivo</h2>
+                        <p>I am a journalist with +10 years of experience in anti-corruption and political/legislative 
+                            monitoring across LAC. I am based in Argentina, working for the regional pro-democracy 
+                            NGO Directorio Legislativo.</p>
+                        <hr>
+                        <div class="footer__card">
+                            <h3 class="user__name">Buenos Aires, Argentina</h3>
+                        </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover__card">
+                                <img src="media/DanielD.jpeg" alt="">
+                            </div>
+                            <h2>Daniel Duque</h2>
+                            <p>I am the Deputy Director of Analytics and Artificial Intelligence of the Observatorio Fiscal
+                                 from the Pontificia Universidad Javeriana. I hold an MSc in Artificial Intelligence and 
+                                 a bachelor degree in Economics.
+                                 <hr>
+                            <div class="footer__card">
+                                <h3 class="user__name">Bogota, Colombia</h3>
+                            </div>
+                            </div>
+        </div>
+                    </div>   <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="security">
+                        <h1>
+                            Safety
+                        </h1>
+                        <br>
+                        <br>
+                        <h2>
+                            Everything that matters. Safe and sound.
+                        </h2>
+                        <p>
+                            We take the security and privacy of our customers' files seriously. Our privacy and 
+                            security program is informed by industry standards like SOC 2, ISO 27001, and GDPR. 
+                            You can rely on our enterprise-grade security to enable insights for your entire team.
+                        </p>
+                    </div>
+<div class="safety">
+    <img src="media/safety.png">
+    <img src="media/secure.png">
+    
+</div>
+
+
+<div class="ag-format-container">
+    <div class="ag-courses_box">
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            Encrypted at rest
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            We use top-of-class SHA 256-bit encryption to lock all files in our system. 
+            This secure layer means only you can view your data.
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            Encrypted in transit
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Our TLS 1.3 protocol provides security between our servers and your browser.
+             We serve HTTPS over signed Cloudflare and Google Cloud connections.
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            SSO / SAML authentication
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            We will soon offer single sign-on integration, so your team doesn't need to make new credentials. 
+            You will soon be able to use Google, which keeps you in control of all your credentials.
+          </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            Least privilege procedures
+          </div>
+          <div class="ag-courses-item_date-box">
+          We give our tech teams limited access when they make changes. 
+          We empower admins with the least privilege they need, and only during the job.
+        </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg">
+          </div>
+          <div class="ag-courses-item_title">
+            SOC-2 compliance
+        </div>
+            <div class="ag-courses-item_date-box">
+                Our SOC-2 compliance certification is nearly complete. 
+                We've passed our own tests and are just waiting for Vanta to issue our final certificate
+            
+            </div>
+        </a>
+      </div>
+  
+      <div class="ag-courses_item">
+        <a href="#" class="ag-courses-item_link">
+          <div class="ag-courses-item_bg"></div>
+  
+          <div class="ag-courses-item_title">
+            Easy team management
+          </div>
+  
+          <div class="ag-courses-item_date-box">
+            Use our web app to give access in a snap.
+             You can spin up a teammate in seconds. Onboarding takes less than a minute.
+          </div>
+        </a>
+      </div>
+  
+    </div>
+  </div>
+ 
+  <footer>
+    <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-x"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Career</a></li>
+        </ul>
+        </div>
+        <img src="media/odcc.png">
+        
+        <div class="row">
+        Accountability lab Copyright © 2023 HACKCORRUPTION - All rights reserved || Designed By: Yefry Nunez 
+        </div>
+        </div>
+
+  </footer>
+</section>
+</section>
+<script>
+    window.addEventListener('scroll', function() {
+        var scrollPosition = window.pageYOffset;
+        var totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+        var scrollPercent = (scrollPosition / totalHeight) * 100;
+
+        var body = document.body;
+
+        if (scrollPercent < 25) {
+            body.className = 'bg-color-white';
+        } else if (scrollPercent < 50) {
+            body.className = 'bg-color-gray';
+        } else if (scrollPercent < 90) {
+            body.className = 'bg-color-light-black';
+        } else {
+            body.className = 'bg-color-black';
+        }
+    });
+</script>
+</body>
+</html>
